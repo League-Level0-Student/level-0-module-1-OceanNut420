@@ -10,6 +10,14 @@ void setup() {
 }
 void draw() {
 if(mousePressed==true){
-  ellipse(
+  fill(200,0,0);
+  ellipse(175,220,50,50);
+  ellipse(245,335,50,50);
+  ellipse(310,185,50,50);
+  ellipse(330,250,50,50);
+  ellipse(230,160,50,50);
+  ellipse(240,250,50,50);
+  ellipse(180,300,50,50);
+  ellipse(310,315,50,50);
 }
 }
