@@ -13,10 +13,10 @@ public static void main(String[] args) {
 		// 2. Ask the user to enter a name. Store their answer in a variable.
 		String stinky = JOptionPane.showInputDialog("enter a name? (yorMom or yorDad)");
 		// 3. In a pop-up, tell the user what is remarkable about that person. 
-			if (stinky != "yorDad") {
+			if (stinky = "yorDad") {
 				JOptionPane.showMessageDialog(null, "youDad is " + yorDad);
 			}
-			if (stinky != "yorMom") {
+			if (stinky = "yorMom") {
 				JOptionPane.showMessageDialog(null, "yorMom is " + yorMom);
 			}
 			

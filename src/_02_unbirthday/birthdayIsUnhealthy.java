@@ -7,7 +7,7 @@ public class birthdayIsUnhealthy {
 	public static void main(String[] args) {
 		
 		String e = JOptionPane.showInputDialog("when is yoru birthday? put like this: mm/dd");
-		if(e == "11/02") {
+		if(e = "11/02") {
 			JOptionPane.showMessageDialog(null, "happy bithday chunky!");
 		}
 		
